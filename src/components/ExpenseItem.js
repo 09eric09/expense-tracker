@@ -2,7 +2,14 @@ import React from 'react'
 
 const ExpenseItem = () => {
   return (
-    <div>This is the ExpenseItem Component</div>
+  <>
+    <div>Title</div>
+    <div>
+      <h2>Car Insurance</h2>
+      <div>$294.67</div>
+    </div>
+
+  </>
   )
 }
 
