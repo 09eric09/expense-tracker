@@ -23,7 +23,7 @@ function App() {
       date: new Date(2021, 5, 12),
     },
   ];
-
+  //Receiving the form data from NewExpense
   const addExpenseHandler = (expense)=> {
     console.log(expense);
   }

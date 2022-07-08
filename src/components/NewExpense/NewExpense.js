@@ -8,7 +8,7 @@ const NewExpense = (props) => {
       ...enteredExpenseData,
       id: Math.random().toString()
     }
-    //the function from App.js, we're passing in the data as a parameter
+    //the function we're using to pass up the data to App.js
     props.onAddExpense(expenseData);
   }
 
