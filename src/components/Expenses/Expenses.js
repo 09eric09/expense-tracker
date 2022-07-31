@@ -6,7 +6,7 @@ import './Expenses.css';
 
 const Expenses = (props) => {
   const [filteredYear, setFilteredYear] = useState('2020');
-
+  //This argument is the selected year we are getting from ExpensesFilter.js
   const saveDateHandler = (selectedYear) => {
     setFilteredYear(selectedYear);
   }

@@ -4,6 +4,7 @@ import './ExpensesFilter.css';
 const ExpensesFilter = (props) => {
 
   const dropdownChangeHandler = (e) => {
+    //We are passing the date up to Expenses.js
     props.onChangeFilter(e.target.value);
   }  
   return (
